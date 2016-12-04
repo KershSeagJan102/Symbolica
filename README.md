@@ -1,0 +1,2 @@
+# Symbolica
+Symbolica Reddit Theme
