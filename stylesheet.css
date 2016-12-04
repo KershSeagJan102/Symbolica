@@ -1,0 +1,18 @@
+/*
+Symbolica CSS Theme v 1.0
+Created by /u/RoboticPlayer
+
+Inspired by /r/Naut, /r/Structura
+Icons from https://icons8.com
+
+Background image taken by /u/mojave955
+
+If you wish to use this theme for your subreddit, please let me know and give me credit!
+*/
+* { font-family: Lato, arial, sans-serif; font-size: 13px; } body { overflow-x: hidden; overflow-y: scroll; } body, .side, .titlebox form.toggle, .leavemoderator, .icon-menu a, .sidebox .subtitle, .sidebox .spacer, #search input[type=text] { background: #ececec; } #header { background: #000 url(%%banner%%) no-repeat 50%; height: 200px; } #header-img.default-header, #header-img { position: absolute; bottom: 75px; z-index: 99; width: 0; padding-left: 46px; height: 45px; width: 3px; background: url(%%snoo%%); margin: 0 8px 0 0; } #header .tabmenu li:not(.selected) a { color: gray; transition: 0.25s; } #header .tabmenu li:not(.selected) a:hover { color: white; transition: 0.25s; } .titlebox .users-online { display: block; } .titlebox .users-online .number { font-style: italic; font-size: 11px; } .titlebox .users-online, .titlebox .number { cursor: text; } .tabmenu { position: absolute; width: 3000px; bottom: 0; text-transform: uppercase; display: block; background: black; height: 30px; opacity: 0.5; } .tabmenu li.selected a, .tabmenu li a { border: 0; font-size: 20px; background: transparent; } .pagename a { font-size: 45px; color: white; } .pagename { position: absolute; bottom: 70px; left: 55px; color: white; } .res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement .md, .res .RES-keyNav-activeElement .md-container, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed, div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement .md, div.commentarea div.RES-keyNav-activeElement.entry, div.nocollapsed, .RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container { border-radius: 10px; } .thumbnail img { border-radius: 100px; width: 55px; height: 55px; margin-left: 7px; } .thing.stickied .thumbnail { background: url(%%sticky%%) center no-repeat; } .thing.locked .thumbnail, .thing.archived .thumbnail { background: url(%%locked%%) center no-repeat; } .thing.over18 .thumbnail { background: url(%%nsfw%%) center no-repeat; } .report-button a { color: red !important; } .titlebox h1 a, .morelink a { font-size: 20px; } .morelink .nub { display: none; } .morelink { border-radius: 20px; transition: 0.25s; } .morelink:hover { border-radius: 20px; transition: 0.25s; } .side:after { content: "This subreddit uses Symbolica by /u/RoboticPlayer" } .sidecontentbox a.helplink, .account-activity-box a { display: block; border: none; text-align: center; float: none; font-size: 20px; text-transform: uppercase; border-radius: 10px; padding: 5px; } .sidecontentbox a.helplink { background: #34BC78; } .account-activity-box a { background: orangered; } .side { margin: 0 0 50px 10px; border-bottom-left-radius: 5px; border-left: 2px solid rgba(144,144,144,.25); border-bottom: 2px solid rgba(144,144,144,.25); padding-left: 5px; padding-bottom: 10px; } .side .md p { font-size: 13px; } .side .md h6 a { display: block; border: none; text-align: center; float: none; border-radius: 10px; padding: 5px; background: lightblue; font-size: 20px; } #search input[type=text] { border-radius: 5px; }
+
+/* =====================================================================
+
+             End of Symbolica - Add customizations below
+
+===================================================================== */
